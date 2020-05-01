@@ -1,7 +1,8 @@
-import tensorflow as tf
+# import tensorflow as tf
 import numpy as np
 import os
 import librosa
+import tensorflow as tf
 import matplotlib.pyplot as plt
 import random
 from configuration import get_config
