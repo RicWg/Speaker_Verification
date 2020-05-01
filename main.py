@@ -1,7 +1,8 @@
-import tensorflow as tf
+# import tensorflow as tf
 import os
 from model import train, test
 from configuration import get_config
+import tensorflow as tf
 
 config = get_config()
 tf.reset_default_graph()
