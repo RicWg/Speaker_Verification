@@ -1,9 +1,10 @@
-import tensorflow as tf
+# import tensorflow as tf
 import numpy as np
 import os
 import time
 from utils import random_batch, normalize, similarity, loss_cal, optim
 from configuration import get_config
+import tensorflow as tf
 from tensorflow.contrib import rnn
 
 config = get_config()
